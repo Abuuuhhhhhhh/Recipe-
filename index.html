@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>ABRA'S RECIPE FINDER</title>
+          <link rel="stylesheet" href="styles.css">
+     </head>
+     <body>
+          <div>
+               <p class="head" id="welcome-text"></p>
+               <p class="para"> This Recipe Guide will help you </p>
+               <p id="dynamicText" class="para" > </p>
+          </div>
+          <div class="container">
+               <h1> RECIPE FINDER</h1>
+               <form id="recipe-form">
+                    <input type="text" id="recipe-input" placeholder="Search for a recipe..." required> 
+               <button type="SUBMIT" > SEARCH </button>
+          </form>
+          <div id="recipe-results"></div>
+      </div>
+      <div>
+          <p class="hood"> RECIPE FINDER GUIDE</p>
+          <p class="hood">Overall Experience:</p>
+    <p class="para">The Recipe Finder provides a straightforward and user-friendly experience for those looking to discover new recipes. Its minimalist design and intuitive interface make it easy for users to search for and find recipes based on their desired ingredients or dish names.</p>
+    <p class="hood"> Design and Usability:</p>
+    <p class="para">The design is clean and modern, with a simple layout that prioritizes ease of use. The main search bar is prominently displayed, encouraging users to enter their search queries. The search results are displayed in a well-organized manner, with each recipe shown as a card containing a thumbnail image, title, and a link to the full recipe. This visual representation makes it easy to browse through multiple recipes quickly.</p>
+    <p class="hood"> Performance and Functionality:</p>
+    <p class="para"> The site performs well, with fast load times and responsive design. The integration with the external recipe API works seamlessly, fetching and displaying results promptly. However, as with any API-dependent service, the availability and variety of search results are subject to the limitations of the API's dataset. Some searches may not return any results if the API doesn't have data for that particular Recipe.</p>
+    <p class="hood"> Error Handling and User Feedback</p>
+    <p class="para"> The Recipe Finder handles errors gracefully. If no recipes are found for a particular search term, the site displays a friendly message encouraging users to try another search term. This feature enhances the user experience by providing clear feedback and reducing frustration.</p>
+         </div>
+      <script src="script.js"></script>
+     </body>
+</html>
